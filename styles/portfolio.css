@@ -42,7 +42,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav li{
@@ -127,3 +127,188 @@ main{
     font-size: 20px;
     color: #474747;
 }
+
+/* what I do section */
+
+.what-i-do-intro{
+    margin-top: 130px;
+    /* background-color: #FFF8F3; */
+    border-radius: 10px;
+    /* padding: 130px 150px; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.what-i-do-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.what-i-do-info{
+    color: #757575;
+    font-size: 18px;
+}
+
+.what-i-do{
+    display: flex;
+    gap: 24px;
+
+}
+
+
+.skill{
+    width: 267px;
+    height: 377px; 
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.logo{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-info{
+    color:#757575;
+    display: flex;
+    width: 201px;
+    flex-direction: column;
+    line-height: 28px;
+
+}
+
+/* resume-section */
+/* My Education and My experience has the same styles. So didn't change the class name that I have made for My education */
+
+.resume-summary{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.my-edu{
+    display: flex;
+    flex-direction: column;
+}
+
+.education{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.degree{
+
+}
+
+.degree-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.university{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color:#757575;
+}
+
+.degree-details{
+    width: 511px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #757575;
+}
+
+.line{
+    width: 511px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.my-edu-my-exp{
+    display: flex;
+    gap: 71px;
+}
+
+.download-icon{
+    height: 24px;
+    width: 24px;
+
+}
+
+.dcv{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+/* footer section */
+
+.footer{
+    background-color: #FFF8F3;
+    /* height: 780px; */
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+    text-align: justify;
+}
+
+.connect{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #181818;
+
+    
+}
+
+.time{
+    width: 562px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer a{
+    text-decoration: none;
+
+}
+
+.iconss{
+    display: flex;
+    gap: 24px;
+}
+
+footer input[type="text"], input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+
+input{
+    height: 64px
+    ;
+}
+
+.message-me{
+    margin-right: 200px;
+}
+
